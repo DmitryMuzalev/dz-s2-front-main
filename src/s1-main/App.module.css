@@ -1,11 +1,39 @@
 .App {
-    --header_height: 60px;
+  padding: 2.5rem 0;
+  --header_height: 60px;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.App > div {
+  width: 100%;
 }
 
 .hw {
-
+  border-top: 1px solid var(--border-color);
+  border-bottom: 1px solid var(--border-color);
+  padding: 1.5rem 0 2rem;
 }
 
+.hw > div {
+  max-width: 1172px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+.hw > div:first-child {
+  display: flex;
+  flex-direction: column;
+}
+.hw > div:last-child {
+  margin-top: 2.75rem;
+}
 .hwTitle {
-
+  display: block;
+  margin: 0 auto 0.625rem;
+  max-width: 1172px;
+  padding: 0 1rem;
+  font-size: 1.375rem;
+  font-weight: 600;
 }
