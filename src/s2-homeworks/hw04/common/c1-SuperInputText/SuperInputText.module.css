@@ -1,16 +1,28 @@
-.input:focus {
+.input {
+  outline: none;
+  border: 1px solid #d1d1d1;
+  border-radius: 5px;
+  width: 372px;
+  height: 36px;
+  padding: 0 0.5rem;
+  font-family: inherit;
 }
 
-.input {
+.input:focus {
+  border-color: var(--primary-color);
 }
 
 .inputWrapper {
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 0.25rem;
 }
 
 .superInput {
 }
 
 .errorInput {
+  border-color: var(--error-color);
 }
 
 .errorInput:focus {

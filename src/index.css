@@ -34,3 +34,8 @@ body {
   font-weight: 400;
   color: var(--black);
 }
+
+.error-message-span {
+  color: var(--error-color);
+  font-size: 0.8rem;
+}
