@@ -35,6 +35,12 @@ body {
   color: var(--black);
 }
 
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
 .error-message-span {
   color: var(--error-color);
   font-size: 0.8rem;
