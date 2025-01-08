@@ -1,10 +1,25 @@
 .spanBlock {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
 }
 
 .span {
+  font-weight: 500;
+  font-size: 1rem;
+  color: #0080ff;
 }
 
 .input {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 1rem;
+  padding-left: 24px;
+  color: #000;
+}
+
+.input:focus {
+  border-color: #d1d1d1;
 }
 
 .pen {
