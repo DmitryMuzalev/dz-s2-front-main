@@ -1,14 +1,41 @@
 .buttonsContainer {
+  display: flex;
+  column-gap: 20px;
+}
+
+.buttonsContainer button {
+  text-transform: capitalize;
+  min-width: 84px;
+}
+
+.buttonsContainer button:disabled {
+  cursor: not-allowed;
+  opacity: 0.6;
+  color: white;
 }
 
 .clock {
+  font-family: inherit;
+  font-size: 20px;
+}
+
+.clock #hw9-day {
+  font-weight: 500;
+}
+.clock #hw9-time {
+  font-weight: 600;
 }
 
 .watch {
+  cursor: pointer;
+  margin-bottom: 8px;
 }
 
 .watch strong {
 }
 
 .more {
+  margin-bottom: 28px;
+  font-weight: 400;
+  font-size: 1rem;
 }

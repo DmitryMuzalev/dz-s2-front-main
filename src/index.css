@@ -45,3 +45,9 @@ body {
   color: var(--error-color);
   font-size: 0.8rem;
 }
+
+#hw5-page-junior {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
