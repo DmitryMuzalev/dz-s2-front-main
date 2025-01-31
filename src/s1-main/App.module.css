@@ -16,6 +16,7 @@
   border-top: 1px solid var(--border-color);
   border-bottom: 1px solid var(--border-color);
   padding: 1.5rem 0 2rem;
+  min-height: 373px;
 }
 
 .hw > div {

@@ -51,3 +51,7 @@ body {
   flex-direction: column;
   gap: 40px;
 }
+
+#hw10-button-start-loading {
+  align-self: start;
+}
