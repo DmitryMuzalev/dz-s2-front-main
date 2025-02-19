@@ -28,11 +28,29 @@ body {
   font-size: var(--font-size);
 }
 
+[data-theme="1"] {
+  --color: #000000;
+  --background: #ffffff !important;
+}
+
+[data-theme="2"] {
+  --color: #000000;
+  --background: #ddeeff !important;
+}
+
+[data-theme="3"] {
+  --color: #ffffff;
+  --background: #212a34 !important;
+}
+
+html {
+  background-color: var(--background);
+  color: var(--color);
+}
+
 body {
-  background-color: var(--white);
   font-family: var(--font-family);
   font-weight: 400;
-  color: var(--black);
 }
 
 .wrapper {
