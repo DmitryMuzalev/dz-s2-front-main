@@ -1,7 +1,23 @@
-.tech {
+.hw14_container {
+}
 
+.hw14_body {
+  max-width: 372px !important;
+}
+
+.hw14_body input {
+  width: 100%;
+}
+
+.tech {
+  line-height: 150%;
+  color: #000;
 }
 
 .loading {
-
+  text-align: right;
+  font-weight: 300;
+  font-size: 14px;
+  color: #4d4d4d;
+  margin-top: 11px;
 }
