@@ -1,11 +1,22 @@
 .pagination {
-    display: flex;
+  display: flex;
+  flex-direction: row !important;
+  align-items: center;
+  margin-bottom: 36px !important;
 }
 
 .text1 {
-
+  margin: 0 16px 0 24px;
+  text-transform: capitalize;
 }
 
 .text2 {
+  margin-left: 16px;
+}
 
+.text1,
+.text2 {
+  font-weight: 400;
+  font-size: 14px;
+  color: #0d0b0c;
 }
